@@ -1,10 +1,10 @@
 # ccrestoration
 
-[![codecov](https://codecov.io/gh/TensoRaws/ccrestoration/graph/badge.svg?token=VK0BHDUXAI)](https://codecov.io/gh/TensoRaws/ccrestoration)
+[![codecov](https://codecov.io/gh/EutropicAI/ccrestoration/graph/badge.svg?token=VK0BHDUXAI)](https://codecov.io/gh/TensoRaws/ccrestoration)
 [![CI-test](https://github.com/EutropicAI/ccrestoration/actions/workflows/CI-test.yml/badge.svg)](https://github.com/EutropicAI/ccrestoration/actions/workflows/CI-test.yml)
 [![Release-pypi](https://github.com/EutropicAI/ccrestoration/actions/workflows/Release.yml/badge.svg)](https://github.com/EutropicAI/ccrestoration/actions/workflows/Release.yml)
 [![PyPI version](https://badge.fury.io/py/ccrestoration.svg)](https://badge.fury.io/py/ccrestoration)
-![GitHub](https://img.shields.io/github/license/TensoRaws/ccrestoration)
+![GitHub](https://img.shields.io/github/license/EutropicAI/ccrestoration)
 
 an inference lib for image/video restoration with VapourSynth support, compatible with [many community models](https://openmodeldb.info/)
 
@@ -91,4 +91,4 @@ It still in development, the following models are supported:
 ### License
 
 This project is licensed under the MIT - see
-the [LICENSE file](https://github.com/EutropicAI/ccrestoration/blob/main/LICENSE) for details.
+the [LICENSE file](./LICENSE) for details.
