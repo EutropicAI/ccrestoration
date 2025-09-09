@@ -36,11 +36,11 @@ classifiers = [
   "Programming Language :: Python :: 3.12"
 ]
 description = "an inference lib for image/video restoration with VapourSynth support"
-homepage = "https://github.com/TensoRaws/ccrestoration"
+homepage = "https://github.com/EutropicAI/ccrestoration"
 license = "MIT"
 name = "ccrestoration"
 readme = "README.md"
-repository = "https://github.com/TensoRaws/ccrestoration"
+repository = "https://github.com/EutropicAI/ccrestoration"
 version = "0.2.1"
 
 # Requirements

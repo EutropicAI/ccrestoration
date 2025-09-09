@@ -11,7 +11,7 @@ def test_auto_class_register() -> None:
 
     cfg = RealESRGANConfig(
         name=cfg_name,
-        url="https://github.com/TensoRaws/ccrestoration/releases/download/model_zoo/RealESRGAN_RealESRGAN_x4plus_anime_6B_4x.pth",
+        url="https://github.com/EutropicAI/ccrestoration/releases/download/model_zoo/RealESRGAN_RealESRGAN_x4plus_anime_6B_4x.pth",
         arch="RRDB",
         model=model_name,
         scale=4,

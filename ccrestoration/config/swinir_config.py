@@ -55,7 +55,7 @@ SwinIRConfigs = [
     # official models
     SwinIRConfig(
         name=ConfigType.SwinIR_classicalSR_DF2K_s64w8_SwinIR_M_2x,
-        url="https://github.com/TensoRaws/ccrestoration/releases/download/model_zoo/SwinIR_classicalSR_DF2K_s64w8_SwinIR_M_2x.pth",
+        url="https://github.com/EutropicAI/ccrestoration/releases/download/model_zoo/SwinIR_classicalSR_DF2K_s64w8_SwinIR_M_2x.pth",
         hash="2032ebf8f401dd3ce2fae5f3852117cb72101ec6ed8358faa64c2a3fa09ed4ac",
         scale=2,
         window_size=8,
@@ -67,7 +67,7 @@ SwinIRConfigs = [
     ),
     SwinIRConfig(
         name=ConfigType.SwinIR_lightweightSR_DIV2K_s64w8_SwinIR_S_2x,
-        url="https://github.com/TensoRaws/ccrestoration/releases/download/model_zoo/SwinIR_lightweightSR_DIV2K_s64w8_SwinIR_S_2x.pth",
+        url="https://github.com/EutropicAI/ccrestoration/releases/download/model_zoo/SwinIR_lightweightSR_DIV2K_s64w8_SwinIR_S_2x.pth",
         hash="193b229909ca89cd8b55de9c9e7fce146ae759d59dfcd78d8feb9dd1d6fa0fd7",
         scale=2,
         window_size=8,
@@ -77,7 +77,7 @@ SwinIRConfigs = [
     ),
     SwinIRConfig(
         name=ConfigType.SwinIR_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR_L_GAN_4x,
-        url="https://github.com/TensoRaws/ccrestoration/releases/download/model_zoo/SwinIR_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR_L_GAN_4x.pth",
+        url="https://github.com/EutropicAI/ccrestoration/releases/download/model_zoo/SwinIR_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR_L_GAN_4x.pth",
         hash="99adfa91350a84c99e946c1eb3d8fce34bc28f57d807b09dc8fe40a316328c0a",
         scale=4,
         window_size=8,
@@ -90,7 +90,7 @@ SwinIRConfigs = [
     ),
     SwinIRConfig(
         name=ConfigType.SwinIR_realSR_BSRGAN_DFO_s64w8_SwinIR_M_GAN_2x,
-        url="https://github.com/TensoRaws/ccrestoration/releases/download/model_zoo/SwinIR_realSR_BSRGAN_DFO_s64w8_SwinIR_M_GAN_2x.pth",
+        url="https://github.com/EutropicAI/ccrestoration/releases/download/model_zoo/SwinIR_realSR_BSRGAN_DFO_s64w8_SwinIR_M_GAN_2x.pth",
         hash="f397408977a3e07eb06afb7238d453a12ef35ebab7328a54241f307860dbe342",
         scale=2,
         window_size=8,
@@ -102,7 +102,7 @@ SwinIRConfigs = [
     ),
     SwinIRConfig(
         name=ConfigType.SwinIR_realSR_BSRGAN_DFO_s64w8_SwinIR_M_GAN_4x,
-        url="https://github.com/TensoRaws/ccrestoration/releases/download/model_zoo/SwinIR_realSR_BSRGAN_DFO_s64w8_SwinIR_M_GAN_4x.pth",
+        url="https://github.com/EutropicAI/ccrestoration/releases/download/model_zoo/SwinIR_realSR_BSRGAN_DFO_s64w8_SwinIR_M_GAN_4x.pth",
         hash="b9afb61e65e04eb7f8aba5095d070bbe9af28df76acd0c9405aeb33b814bcfc6",
         scale=4,
         window_size=8,
@@ -115,7 +115,7 @@ SwinIRConfigs = [
     # community models
     SwinIRConfig(
         name=ConfigType.SwinIR_Bubble_AnimeScale_SwinIR_Small_v1_2x,
-        url="https://github.com/TensoRaws/ccrestoration/releases/download/model_zoo/SwinIR_Bubble_AnimeScale_SwinIR_Small_v1_2x.pth",
+        url="https://github.com/EutropicAI/ccrestoration/releases/download/model_zoo/SwinIR_Bubble_AnimeScale_SwinIR_Small_v1_2x.pth",
         hash="aea80c061b41e1cbc5b0c0f9bb2603a82c7d00d2451bfd5b98a495244dd5fb2f",
         scale=2,
         img_size=32,

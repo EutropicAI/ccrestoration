@@ -13,7 +13,7 @@ SpyNetConfigs = [
     # BasicSR SpyNet
     SpyNetConfig(
         name=ConfigType.SpyNet_spynet_sintel_final,
-        url="https://github.com/TensoRaws/ccrestoration/releases/download/model_zoo/SpyNet_spynet_sintel_final.pth",
+        url="https://github.com/EutropicAI/ccrestoration/releases/download/model_zoo/SpyNet_spynet_sintel_final.pth",
         hash="3d2a1287666aa71752ebaedc06999212886ef476f77d691a1b0006107088e714",
     ),
 ]
