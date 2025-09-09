@@ -22,37 +22,39 @@ jobs:
   CI:
     strategy:
       matrix:
-        os-version: ["ubuntu-20.04", "macos-14", "windows-latest"]
+        os-version: ["windows-latest", "ubuntu-latest", "macos-14"]
         python-version: ["3.9"]
         poetry-version: ["1.8.3"]
-        pytorch-version: ["2.4.0", "2.1.2", "2.0.0", "1.13.0"]
+        pytorch-version: ["2.7.1", "2.1.2", "2.0.0", "1.13.0"]
 
     runs-on: ${{ matrix.os-version }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           submodules: recursive
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
 
-      - uses: abatilo/actions-poetry@v2
+      - uses: abatilo/actions-poetry@v3
         with:
           poetry-version: ${{ matrix.poetry-version }}
 
       - name: Install dependencies
         run: |
           pip install numpy==1.26.4
-          pip install pydantic tenacity opencv-python einops
+          pip install opencv-python==4.10.0.84
+
+          pip install pydantic tenacity einops
           pip install pre-commit scikit-image
           pip install pytest pytest-cov coverage
           pip install mypy ruff types-requests
 
-      - name: Install PyTorch 2.4.0
-        if: matrix.pytorch-version == '2.4.0'
+      - name: Install PyTorch 2.7.1
+        if: matrix.pytorch-version == '2.7.1'
         run: |
-          pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0
+          pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1
 
       - name: Install PyTorch 2.1.2
         if: matrix.pytorch-version == '2.1.2'
@@ -75,7 +77,7 @@ jobs:
           make test
 
       - name: Codecov
-        if: matrix.os-version == 'ubuntu-20.04' && matrix.pytorch-version == '2.4.0'
-        uses: codecov/codecov-action@v3
+        if: matrix.os-version == 'ubuntu-latest' && matrix.python-version == '3.9' && matrix.pytorch-version == '2.7.1'
+        uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}

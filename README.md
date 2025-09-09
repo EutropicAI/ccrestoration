@@ -68,9 +68,7 @@ See more examples in the [example](./example) directory, ccrestoration can regis
 It still in development, the following models are supported:
 
 - [Architecture](./ccrestoration/type/arch.py)
-
 - [Model](./ccrestoration/type/model.py)
-
 - [Weight(Config)](./ccrestoration/type/config.py)
 
 ### Notice
