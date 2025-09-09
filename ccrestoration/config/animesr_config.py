@@ -16,13 +16,13 @@ class AnimeSRConfig(BaseConfig):
 AnimeSRConfigs = [
     AnimeSRConfig(
         name=ConfigType.AnimeSR_v1_PaperModel_4x,
-        url="https://github.com/TensoRaws/ccrestoration/releases/download/model_zoo/AnimeSR_v1_PaperModel_4x.pth",
+        url="https://github.com/EutropicAI/ccrestoration/releases/download/model_zoo/AnimeSR_v1_PaperModel_4x.pth",
         hash="915ef7f0f7067f04219516b50e88c362581300e48902e3b7f540650e32a20c10",
         scale=4,
     ),
     AnimeSRConfig(
         name=ConfigType.AnimeSR_v2_4x,
-        url="https://github.com/TensoRaws/ccrestoration/releases/download/model_zoo/AnimeSR_v2_4x.pth",
+        url="https://github.com/EutropicAI/ccrestoration/releases/download/model_zoo/AnimeSR_v2_4x.pth",
         hash="d0f29c8966b53718828bd424bbdc306e7ff0cbf6350beadaf8b5b2500b108548",
         scale=4,
     ),
